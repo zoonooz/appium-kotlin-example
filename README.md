@@ -54,5 +54,5 @@ Android has the tool that you can use to find element informations as well.
 ### PageObject Pattern
 Page Object is a Design Pattern which has become popular in test automation for enhancing test maintenance and reducing code duplication. I recommend you to read and understand how to design the test before start writing.
 
-https://martinfowler.com/bliki/PageObject.html
-https://github.com/SeleniumHQ/selenium/wiki/PageObjects
+- https://martinfowler.com/bliki/PageObject.html
+- https://github.com/SeleniumHQ/selenium/wiki/PageObjects
