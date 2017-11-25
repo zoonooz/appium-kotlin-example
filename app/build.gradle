@@ -1,0 +1,12 @@
+apply plugin: 'kotlin'
+
+test {
+    systemProperty 'platform', project.findProperty('platform')
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation "io.appium:java-client:5.0.4"
+    implementation 'junit:junit:4.12'
+}
